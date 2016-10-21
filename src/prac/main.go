@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	//"crypto/md5"
+	_ "github.com/go-sql-driver/mysql"
+)
 
 func main() {
-	fmt.Println("hello world")
+	println("abc")
 }
