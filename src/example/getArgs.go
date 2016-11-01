@@ -4,12 +4,14 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"path/filepath"
 )
 
 func main() {
 
 	fmt.Println("use os.Args:")
 	fmt.Println(os.Args)
+	fmt.Println(filepath.Base(os.Args[0]))
 	fmt.Println()
 	//使用flag来操作命令行参数，支持的格式如下：
 	//-id=1
